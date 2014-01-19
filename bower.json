@@ -1,0 +1,21 @@
+{
+  "name": "require.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zvolkov/require.js",
+  "authors": [
+    "Andrei Volkov <zvolkov@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery_2_0_3": "jquery#2.0.3",
+    "requirejs-domready": "~2.0.1",
+    "requirejs": "~2.1.10"
+  }
+}

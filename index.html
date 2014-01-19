@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Sample Project</title>
+        <script src="require_cfg.js"></script>
+        <script src="bower_components/requirejs/require.js"></script>
+    </head>
+    <body>
+        <h1>My Sample Project</h1>
+        
+        <script>
+            require(['features/module1', 'domReady!'], function(module1){
+                window.alert(module1.message);
+            });
+        </script>
+    </body>
+</html>
